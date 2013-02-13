@@ -1,0 +1,4 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteBase /
+# Auto include PHP file
+php_value auto_prepend_file /includes/db.inc.php
