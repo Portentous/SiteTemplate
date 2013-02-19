@@ -1,7 +1,7 @@
 <?
-if($_SERVER['REMOTE_ADDR'] == '127.0.0.1'){
+if($_SERVER['REMOTE_ADDR'] == '127.0.0.1'){ // a local server
 	$host = "localhost";
-	$db = "pitclub";
+	$db = "";
 	$user = "root";
 	$pass = "";
 }else{
